@@ -1,0 +1,6 @@
+framework module CategoryManage {
+  umbrella header "CategoryManage-umbrella.h"
+
+  export *
+  module * { export * }
+}

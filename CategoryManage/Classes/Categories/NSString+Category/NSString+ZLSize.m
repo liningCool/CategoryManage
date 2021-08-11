@@ -1,0 +1,91 @@
+//
+//  NSString+zlSize.m
+//  Zealer_zaaap!
+//
+//  Created by leihuiwu on 2019/11/11.
+//  Copyright © 2019 Zealer_zaaap!. All rights reserved.
+//
+
+#import "NSString+ZLSize.h"
+
+
+
+@implementation NSString (ZLSize)
+
+
+- (CGSize)zl_SizeWithFont:(UIFont *)font
+{
+    NSDictionary *attributes = @{NSFontAttributeName : font};
+    
+    return [self sizeWithAttributes:attributes];
+}
+
+- (CGSize)zl_BoundingRectWithFont:(UIFont *)font constrainedToSize:(CGSize)size
+{
+    CGRect rect = [self boundingRectWithSize:size options:NSStringDrawingTruncatesLastVisibleLine | NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName : font} context:nil];
+    
+    return rect.size;
+}
+
+- (CGSize)zl_BoundingRectWithFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode
+{
+    CGRect rect = [self boundingRectWithSize:size options:NSStringDrawingTruncatesLastVisibleLine |NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName : font} context:nil];
+    CGSize newsize = CGSizeMake(ceill(rect.size.width), ceill(rect.size.height));
+    
+    return newsize;
+}
+
+- (CGSize)widthWithFont:(UIFont *)font size:(CGSize)size mode:(NSLineBreakMode)lineBreakMode
+{
+    CGSize result;
+    if (!font) font = [UIFont systemFontOfSize:12];
+    if ([self respondsToSelector:@selector(boundingRectWithSize:options:attributes:context:)])
+    {
+        NSMutableDictionary *attr = [NSMutableDictionary new];
+        attr[NSFontAttributeName] = font;
+        if (lineBreakMode != NSLineBreakByWordWrapping)
+        {
+            NSMutableParagraphStyle *paragraphStyle = [NSMutableParagraphStyle new];
+            paragraphStyle.lineBreakMode = lineBreakMode;
+            attr[NSParagraphStyleAttributeName] = paragraphStyle;
+        }
+        CGRect rect = [self boundingRectWithSize:size
+                                         options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading
+                                      attributes:attr context:nil];
+        result = rect.size;
+    }
+    else
+    {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+        result = [self sizeWithFont:font constrainedToSize:size lineBreakMode:lineBreakMode];
+#pragma clang diagnostic pop
+    }
+    return result;
+}
+
+- (CGFloat)widthWithFont:(UIFont *)font width:(CGFloat)width
+{
+    CGSize size = [self widthWithFont:font size:CGSizeMake(width, HUGE) mode:NSLineBreakByWordWrapping];
+    return size.width;
+}
+
+- (CGFloat)heightWithFont:(UIFont *)font width:(CGFloat)width
+{
+    CGSize size = [self widthWithFont:font size:CGSizeMake(width, HUGE) mode:NSLineBreakByWordWrapping];
+    return size.height;
+}
+
+- (CGFloat)widthWithFont:(UIFont *)font
+{
+    CGSize size = [self widthWithFont:font size:CGSizeMake(HUGE, HUGE) mode:NSLineBreakByWordWrapping];
+    return size.width;
+}
+
+- (CGFloat)heightWithFont:(UIFont *)font
+{
+    CGSize size = [self widthWithFont:font size:CGSizeMake(HUGE, HUGE) mode:NSLineBreakByWordWrapping];
+    return size.height;
+}
+
+@end
