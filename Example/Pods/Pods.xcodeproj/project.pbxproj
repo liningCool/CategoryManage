@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		013960D2BC824AA385C0C45C2D41688E /* Pods-CategoryManage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E193AF652EE1E1BEF41FDA0A8A4D2BD7 /* Pods-CategoryManage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0166A7B5E3772745D69D997F4ABB58E4 /* UIButton+ZLTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = B722919D75D7CA133343A28A2EE857E2 /* UIButton+ZLTouch.m */; };
-		01C1BBA60B50A3EFF3913BFFD8E45C1D /* UIView+ZLBlurEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = A4077D8065FA8873CC21C82111EF6C5A /* UIView+ZLBlurEffect.m */; };
 		034C8FBAB40665FDFBF35EF2DE246B95 /* UIView+ZLBorderEXtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F0E2332EBDA1FF48CAD3AEAEBE242B /* UIView+ZLBorderEXtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0429FABA11ADE9E630F988E2CC57FB43 /* NSString+ZLPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 6046BDAF8FEEF9FAED0A3C163730B64B /* NSString+ZLPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0996A6CBA6C8B2A48F6B93A12AD4585A /* Pods-CategoryManage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A68D9E17C57E0D42B000AFD40CAC3A1B /* Pods-CategoryManage_Tests-dummy.m */; };
@@ -41,7 +40,6 @@
 		3F612B5A0B763364BC15E9AB753384BA /* Pods-CategoryManage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 482A98750CCDACEFF38E0BB80986622D /* Pods-CategoryManage_Example-dummy.m */; };
 		43E244887DA71EE352AAE9ECE5A99F5A /* UILabel+ZLAttributeTextTapAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2CC9B87ECC29563F4C7C951B6676F0 /* UILabel+ZLAttributeTextTapAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43E86067977F7C7B023054C808DA8655 /* UIView+ZLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCEBC515C994FB908CAA9A2CBE258C2 /* UIView+ZLUtils.m */; };
-		4429CF8DFC0B77BCDC5014F652181698 /* UIDevice+ZLMacAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 736453677709441031BD3F4854C7606E /* UIDevice+ZLMacAddress.m */; };
 		483FC82AE9BC00D9D4D043024548C916 /* UIView+ZLBorderEXtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E342075BDD191015B7846620D9C2587 /* UIView+ZLBorderEXtension.m */; };
 		4E2A71E31D335876E0D0E0DE7F403BC3 /* UIView+ZLGradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A980BDE6444A8B7A6C6ACA4D207DC240 /* UIView+ZLGradientColor.m */; };
 		4F5B43D475DAD0DB116586DF163546C9 /* UIViewController+ZLUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = D6BA9F865A977360FE4971B8306A7F2B /* UIViewController+ZLUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -86,13 +84,11 @@
 		B35921C79EB23A36FD12FF9A3D44DEFC /* NSString+ZLSize.h in Headers */ = {isa = PBXBuildFile; fileRef = B5576C10FB0B34FF9C27344D7637A3F1 /* NSString+ZLSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		B5717F71707377FC9DB98C9C3D7A680B /* NSString+ZLEmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7B10F1E944BEB9A6D7A8EF53C3AD12 /* NSString+ZLEmptyData.m */; };
-		B644B86ED01FA4C3B833AE3AB3D4E93F /* UIView+ZLBlurEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6F8B200EC337D5298E43873D0E2E79 /* UIView+ZLBlurEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B924C2C7254F6061B3A16ECD720D4F47 /* NSString+ZLIdfa.m in Sources */ = {isa = PBXBuildFile; fileRef = D867B91B81EF42AF10EAB09E554867C6 /* NSString+ZLIdfa.m */; };
 		BB6EE02BB5056BE3A67B55B3FE7F4421 /* UITextView+ZLPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E813AE54E909A3EBD41384DB866267 /* UITextView+ZLPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD44EE3B3F7713E26899D9942024EBEE /* UITextView+ZLPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CCC6EB50BEF7186DB29589ADD44390 /* UITextView+ZLPlaceholder.m */; };
 		BEF7B167375C21F766BE33562EE7E163 /* NSString+ZLRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D898EC559DDD57553EB40954736752 /* NSString+ZLRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		C920B6AB581454004FF3B7B3F1496E62 /* UIDevice+ZLMacAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 10AD37C0611EBEF2D4A5A9D370ABE88A /* UIDevice+ZLMacAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		CAC596984976A6BEE381854B58D3C0E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
@@ -147,7 +143,6 @@
 		0C722EFFC62EE919611062AD14345036 /* NSString+STRegex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+STRegex.m"; sourceTree = "<group>"; };
 		0E342075BDD191015B7846620D9C2587 /* UIView+ZLBorderEXtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZLBorderEXtension.m"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		10AD37C0611EBEF2D4A5A9D370ABE88A /* UIDevice+ZLMacAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ZLMacAddress.h"; sourceTree = "<group>"; };
 		1154D5F3B2262D3BFE26747E02793C1C /* UILabel+ZLSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZLSize.h"; sourceTree = "<group>"; };
 		11E86192CC37E2CDA83012462A738D2D /* UIView+ZLExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ZLExtension.h"; sourceTree = "<group>"; };
 		16E3B5733ED599BA8E509D6B15BFC1BC /* Pods-CategoryManage_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CategoryManage_Example"; path = Pods_CategoryManage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +151,6 @@
 		1BCD525EBDE268E8E48AC703A3DCCFAA /* CategoryManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CategoryManager.h; path = CategoryManage/Classes/Categories/CategoryManager.h; sourceTree = "<group>"; };
 		1CEA68136062E3A94D7F686E3E43B83B /* NSString+ZLExt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZLExt.m"; sourceTree = "<group>"; };
 		1D2F4929499108BFAEBE293D629C98DC /* UIView+ZLFindSubView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZLFindSubView.m"; sourceTree = "<group>"; };
-		1D6F8B200EC337D5298E43873D0E2E79 /* UIView+ZLBlurEffect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ZLBlurEffect.h"; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1EFE221DF9D2B85EDE1ABD266BB7D65E /* NSString+ZLEmptyData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ZLEmptyData.h"; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
@@ -196,10 +190,9 @@
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		682E0E560DA35DE5FA05C56EF57CA7B5 /* NSIndexPath+ZLStringValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+ZLStringValue.m"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		6F1B42CBD1577A33BAE88AFEBB52CF45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6F1B42CBD1577A33BAE88AFEBB52CF45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6FA388B2FF463239A47D737AFB4AB437 /* CategoryManage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CategoryManage-dummy.m"; sourceTree = "<group>"; };
 		72CCC6EB50BEF7186DB29589ADD44390 /* UITextView+ZLPlaceholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ZLPlaceholder.m"; sourceTree = "<group>"; };
-		736453677709441031BD3F4854C7606E /* UIDevice+ZLMacAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ZLMacAddress.m"; sourceTree = "<group>"; };
 		793EA1D0EC4FF8247499290DB65AC23D /* NSString+ZLRegex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZLRegex.m"; sourceTree = "<group>"; };
 		7B7FA171CC938409CCDBDE5AB3B837FE /* Pods-CategoryManage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CategoryManage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
@@ -216,7 +209,7 @@
 		8D69EA66D51614DF590B2299A41CDC02 /* UITextField+ZLPlaceholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ZLPlaceholder.m"; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		9126372B85854F4B0D199FD5D9103322 /* Pods-CategoryManage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CategoryManage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9195FCBF99C748138349A6E99FA95BD4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9195FCBF99C748138349A6E99FA95BD4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		95950170F605517F71B0DA29E97F41DF /* UITextField+ZLPlaceholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+ZLPlaceholder.h"; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
@@ -224,12 +217,11 @@
 		97BE6163753FCD5D4757191658712202 /* Pods-CategoryManage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CategoryManage_Tests-Info.plist"; sourceTree = "<group>"; };
 		984ABF4F97114E0F8B00B4F2134F5AD8 /* NSAttributedString+ZLSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+ZLSize.m"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E982B0955016A8E1DA90AAA0704E812 /* UILabel+ZLSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZLSize.m"; sourceTree = "<group>"; };
 		A00BB7F1D3BD01F0726F31BCBDF1EEF5 /* UIView+ZLExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZLExtension.m"; sourceTree = "<group>"; };
 		A0240DF137258BA953F10C36F6835A33 /* UIColor+ZLHexColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZLHexColor.h"; sourceTree = "<group>"; };
 		A1E1A798A1332D11351E16B511E098C6 /* UIButton+ZLImageTitleSpacing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZLImageTitleSpacing.h"; sourceTree = "<group>"; };
-		A4077D8065FA8873CC21C82111EF6C5A /* UIView+ZLBlurEffect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZLBlurEffect.m"; sourceTree = "<group>"; };
 		A5F421ABB1750C423F32EF4C516485A8 /* Pods-CategoryManage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CategoryManage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A68D9E17C57E0D42B000AFD40CAC3A1B /* Pods-CategoryManage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CategoryManage_Tests-dummy.m"; sourceTree = "<group>"; };
 		A980BDE6444A8B7A6C6ACA4D207DC240 /* UIView+ZLGradientColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZLGradientColor.m"; sourceTree = "<group>"; };
@@ -247,7 +239,7 @@
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		B722919D75D7CA133343A28A2EE857E2 /* UIButton+ZLTouch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZLTouch.m"; sourceTree = "<group>"; };
 		BA945CCB2F3050E449193968C0913C0D /* NSObject+ZLObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZLObject.h"; sourceTree = "<group>"; };
-		BD12DA702C478EFF24D3B0ED26DB9E9C /* CategoryManage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CategoryManage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD12DA702C478EFF24D3B0ED26DB9E9C /* CategoryManage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CategoryManage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BD213D7096D4EF3D45ABA7A75E32AFC3 /* NSString+ZLMd5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZLMd5.m"; sourceTree = "<group>"; };
 		BDD1823351B87999009A12605930EFB5 /* UIColor+ZLHexColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZLHexColor.m"; sourceTree = "<group>"; };
 		C2DA6EA89F1F672F85EDD5DE6D4644AA /* Pods-CategoryManage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CategoryManage_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -318,16 +310,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14EBCC487F2CADB96F6A158576FF4BA7 /* UIDevice+category */ = {
-			isa = PBXGroup;
-			children = (
-				10AD37C0611EBEF2D4A5A9D370ABE88A /* UIDevice+ZLMacAddress.h */,
-				736453677709441031BD3F4854C7606E /* UIDevice+ZLMacAddress.m */,
-			);
-			name = "UIDevice+category";
-			path = "CategoryManage/Classes/Categories/UIDevice+category";
-			sourceTree = "<group>";
-		};
 		1C89FBFA67BF37576EFB8600CD9D1CC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -509,8 +491,6 @@
 		771B18C1772751D33F383BBA14E543D8 /* UIView+Category */ = {
 			isa = PBXGroup;
 			children = (
-				1D6F8B200EC337D5298E43873D0E2E79 /* UIView+ZLBlurEffect.h */,
-				A4077D8065FA8873CC21C82111EF6C5A /* UIView+ZLBlurEffect.m */,
 				43F0E2332EBDA1FF48CAD3AEAEBE242B /* UIView+ZLBorderEXtension.h */,
 				0E342075BDD191015B7846620D9C2587 /* UIView+ZLBorderEXtension.m */,
 				4F12A50386B476EE01241ECD4D3546F7 /* UIView+ZLClipCircle.h */,
@@ -556,7 +536,6 @@
 				C26B3F3CD929ACE1FFE9CB50CE91B20F /* Support Files */,
 				6DFC6E3107296804CDEFBF3F8C9D48B9 /* UIButton+Category */,
 				B0D1A31CF21B4657992AA4E9775A0768 /* UIColor+Category */,
-				14EBCC487F2CADB96F6A158576FF4BA7 /* UIDevice+category */,
 				8ABD081E6CD2651838032E75EAF58D22 /* UIFont+Category */,
 				8C237C08612279FA646CD4A490F9314E /* UIImage+Category */,
 				4B6393E026FA3DC5CF7DE328956B94D6 /* UILabel+Category */,
@@ -660,7 +639,6 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -782,7 +760,6 @@
 				6D6ECAAECD8C2B308746CA1E9EA73144 /* UIButton+ZLImageTitleSpacing.h in Headers */,
 				CC1B1067E8C6D92618DBB9230F965C80 /* UIButton+ZLTouch.h in Headers */,
 				2C50B4986C6BD2B61BEC7443F03A39FB /* UIColor+ZLHexColor.h in Headers */,
-				C920B6AB581454004FF3B7B3F1496E62 /* UIDevice+ZLMacAddress.h in Headers */,
 				37F6D448F790BCCC5FAEB35B52BBC790 /* UIFont+ZLEditLine.h in Headers */,
 				DE253484CD96D3C67E8853EE4F616D33 /* UIImage+ZLExt.h in Headers */,
 				999809734F2AE29993C23E029B1B32EF /* UIImage+ZLStore.h in Headers */,
@@ -791,7 +768,6 @@
 				96A917F8AFA4562F065EC4D3D42822DE /* UIScrollView+ZLTouch.h in Headers */,
 				FE7AA8C507ECEE31FA2B3D8675D281E3 /* UITextField+ZLPlaceholder.h in Headers */,
 				BB6EE02BB5056BE3A67B55B3FE7F4421 /* UITextView+ZLPlaceholder.h in Headers */,
-				B644B86ED01FA4C3B833AE3AB3D4E93F /* UIView+ZLBlurEffect.h in Headers */,
 				034C8FBAB40665FDFBF35EF2DE246B95 /* UIView+ZLBorderEXtension.h in Headers */,
 				7A20A744FAF91A2223FE569D40A9B3BA /* UIView+ZLClipCircle.h in Headers */,
 				FCA7D62FE35FB70BFC4E9F862C9A64F3 /* UIView+ZLExtension.h in Headers */,
@@ -1015,7 +991,6 @@
 				22744BD69978B95C64E0BD73A345890A /* UIButton+ZLImageTitleSpacing.m in Sources */,
 				0166A7B5E3772745D69D997F4ABB58E4 /* UIButton+ZLTouch.m in Sources */,
 				E39869EC619D71F38B050632AA76C417 /* UIColor+ZLHexColor.m in Sources */,
-				4429CF8DFC0B77BCDC5014F652181698 /* UIDevice+ZLMacAddress.m in Sources */,
 				D3670D004CDA6082753E9A6217EFCDEC /* UIFont+ZLEditLine.m in Sources */,
 				6178217D57B45241DBC488A361910711 /* UIImage+ZLExt.m in Sources */,
 				6E77D43370D9D86A573CE83E6EBE6DE3 /* UIImage+ZLStore.m in Sources */,
@@ -1024,7 +999,6 @@
 				CE50DED74890388002DA29F26A5E7CDE /* UIScrollView+ZLTouch.m in Sources */,
 				A58E28509E08D5CFFFFF31B44043B5F4 /* UITextField+ZLPlaceholder.m in Sources */,
 				BD44EE3B3F7713E26899D9942024EBEE /* UITextView+ZLPlaceholder.m in Sources */,
-				01C1BBA60B50A3EFF3913BFFD8E45C1D /* UIView+ZLBlurEffect.m in Sources */,
 				483FC82AE9BC00D9D4D043024548C916 /* UIView+ZLBorderEXtension.m in Sources */,
 				0C4FCB93CEA59D9F746C9602A48E96A3 /* UIView+ZLClipCircle.m in Sources */,
 				2207317D44A4ED94269F692C5A475769 /* UIView+ZLExtension.m in Sources */,
@@ -1435,8 +1409,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
