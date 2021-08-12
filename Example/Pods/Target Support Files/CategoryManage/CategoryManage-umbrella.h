@@ -29,7 +29,6 @@
 #import "UIButton+ZLImageTitleSpacing.h"
 #import "UIButton+ZLTouch.h"
 #import "UIColor+ZLHexColor.h"
-#import "UIDevice+ZLMacAddress.h"
 #import "UIFont+ZLEditLine.h"
 #import "UIImage+ZLExt.h"
 #import "UIImage+ZLStore.h"

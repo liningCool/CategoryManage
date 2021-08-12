@@ -38,7 +38,6 @@
 #import "UIColor+ZLHexColor.h"
 
 /// UIDevice
-#import "UIDevice+ZLMacAddress.h"
 
 /// NSIndexPath
 #import "NSIndexPath+ZLStringValue.h"
