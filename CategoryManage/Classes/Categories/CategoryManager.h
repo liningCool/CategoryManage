@@ -12,7 +12,6 @@
 
 /// UIView and subView
 #import "UIView+ZLUtils.h"
-#import "UIView+ZLBlurEffect.h"
 #import "UITextField+ZLPlaceholder.h"
 #import "UITextView+ZLPlaceholder.h"
 #import "UIImage+ZLExt.h"

@@ -38,7 +38,6 @@
 #import "UIScrollView+ZLTouch.h"
 #import "UITextField+ZLPlaceholder.h"
 #import "UITextView+ZLPlaceholder.h"
-#import "UIView+ZLBlurEffect.h"
 #import "UIView+ZLBorderEXtension.h"
 #import "UIView+ZLClipCircle.h"
 #import "UIView+ZLExtension.h"
